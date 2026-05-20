@@ -1,7 +1,7 @@
 /* index */
 #wrap {
     width: 100%;
-    height: 6670px;
+    /* height: 1500px; */
 }
 /* header */
 #header {
@@ -58,87 +58,9 @@
     width: 20px;
     height: 25px;
 }
-#main {
-    width: 100%;
-    height: 870px;
-    background-color: #004B37;
-}
-.main_img {
-    margin: 0 auto;
-    width: 1450px;
-    height: 770px;
-    background-color: lemonchiffon;
-}
-.main_nav {
-    width: 100%;
-    height: 100px;
-    background-color: #FFFDF7;
-}
-#contents {
-    width: 100%;
-    height: 5400px;
-    background-color: lightgreen;
-}
-/* 5400 = (445 + 760 + 650 + 870 + 740 + 750 + 420 = 4635) + 765 */
-/* content1 */
-.intro {
-    width: 100%;
-    height: 445px;
-    /* background-color: lightblue; */
-}
-.intro_inner {
-    width: 1450px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    top: 160px;
-}
-.intro_inner h3 {
-    color: #002F23;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-.intro_inner h4 {
-    color: #002F23;
-    font-size: 16px;
-}
-/* content2 */
-.content2 {
-    margin: 0 auto;
-    width: 1450px;
-    height: 760px;
-    background-color: darksalmon;
-}
-.content3 {
-    margin: 0 auto;
-    width: 1650px;
-    height: 650px;
-    background-color: deepskyblue;
-}
-.content4 {
-    margin: 0 auto;
-    width: 1450px;
-    height: 870px;
-    background-color: floralwhite;
-}
-.content5 {
-    margin: 0 auto;
-    width: 1450px;
-    height: 740px;
-    background-color: gold;
-}
-.content6 {
-    margin: 0 auto;
-    width: 1450px;
-    height: 750px;
-    background-color: papayawhip;
-}
-.content7 {
-    margin: 0 auto;
-    width: 1450px;
-    height: 420px;
-    background-color: mediumorchid;
-}
+
+/* 내용 작업하세요 */
+
 /* footer */
 #footer {
     width: 100%;
