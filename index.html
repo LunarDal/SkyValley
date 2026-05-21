@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyValley</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.easing.1.3.min.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script_main.js"></script>
 </head>
 <body>
     <div id="wrap">
         <div id="header">
-            <div class="header_in"></div>
+            <div class="header_in">
+                <div class="logo">
+                    <a href="index.html"><img src="images/symbol_logo6 1.png" alt=""></a>
+                </div>
+                <ul class="nav">
+                    <li><a href="company.html">스카이밸리</a></li>
+                    <li><a href="course.html">코스소개</a></li>
+                    <li><a href="club.html">클럽하우스</a></li>
+                    <li><a href="garden.html">가든하임</a></li>
+                    <li><a href="guide.html">이용가이드</a></li>
+                    <li><a href="customer.html">고객센터</a></li>
+                </ul>
+                <div class="icons">
+                    <img src="images/Icon1.png" alt="">
+                    <img src="images/Icon2.png" alt="">
+                    <img src="images/Icon3.png" alt="">
+                </div>
+            </div>
         </div>
         <div id="main">
-            <div class="main_img"></div>
-            <div class="main_nav"></div>
+            <div class="main_img">
+                <!-- <h3>SKY VALLEY<br>COUNTRY CLUB</h3>
+                <div class="small_t">
+                    <h5>SKY ABOVE,<br>PERFECT PLAY BELOW</h5>
+                    <h5>자연 위에<br>완성된 프리미엄 골프 경험</h5>
+                </div> -->
+            </div>
+            <div class="main_bottom">
+                <div class="main_nav">
+                    <ul>
+                        <li><a href="">Today날씨 · 실시간웹캠</a></li>
+                        <li>|</li>
+                        <li><a href="">스카이/밸리 2.7m</a></li>
+                        <li><a href="">레이크/마운틴 2.7m</a></li>
+                    </ul>
+                    <button>실시간 예약하기</button>
+                </div>
+            </div>
         </div>
         <div id="contents">
             <!-- content1 -->
@@ -28,27 +62,126 @@
                     </h4>
                 </div>
             </div>
-            <div class="content2"></div>
-            <div class="content3"></div>
-            <div class="content4"></div>
-            <div class="content5"></div>
-            <div class="content6"></div>
-            <div class="content7"></div>
+            <!-- content2 -->
+            <div class="course">
+                <div class="title">
+                    <p>Course Planning</p>
+                    <h4>코스소개</h4>
+                </div>
+                <ul class="course_list">
+                    <li>
+                        <div class="course_box"><img src="images/arrow.png" alt=""></div>
+                        <h4>Sky</h4>
+                        <p>하늘 위를 산책하는 듯한 환상적인 코스</p>
+                    </li>
+                    <li>
+                        <div class="course_box"><img src="images/arrow.png" alt=""></div>
+                        <h4>Valley</h4>
+                        <p>우아함과 섬세함을 살린 예술적인 코스</p>
+                    </li>
+                    <li>
+                        <div class="course_box"><img src="images/arrow.png" alt=""></div>
+                        <h4>Lake</h4>
+                        <p>힘든만큼 정복의 쾌감도 큰 정복적인 코스</p>
+                    </li>
+                    <li>
+                        <div class="course_box"><img src="images/arrow.png" alt=""></div>
+                        <h4>Mountain</h4>
+                        <p>산과 어우러져 하나되는 내추럴 코스</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- content3 -->
+            <div class="club">
+                <div class="title">
+                    <p>Club House</p>
+                    <h4>클럽하우스</h4>
+                </div>
+                <ul class="c_tabs">
+                    <li class="on"><a href="">프론트·로비</a></li>
+                    <li><a href="">레스토랑</a></li>
+                    <li><a href="">연회장</a></li>
+                    <li><a href="">락커·스파</a></li>
+                    <li><a href="">프로샵</a></li>
+                </ul>
+                <div class="c_space">
+                    <div class="space_l">
+                        <div class="space_area">
+                            <div class="space_name">
+                                <h5>Front · Lobby</h5>
+                                <h4>프론트 · 로비</h4>
+                            </div>
+                            <div class="space_intro">갤러리를 옮겨 놓은 듯 문화와<br>여유가 숨쉬는 휴게공간</div>
+                        </div>
+                        <button>자세히 보기<img src="images/arrow2.png" alt=""></button>
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+            </div>
+            <!-- content4 -->
+            <div class="garden">
+                <div class="title">
+                    <p>Gardenheim</p>
+                    <h4>가든하임</h4>
+                </div>
+                <div class="g_info">
+                    <p>INFORMATION</p>
+                </div>
+                <div class="g_area">
+                    <div class="g_sky">
+                        <p>SKY VILLAGE</p>
+                    </div>
+                    <div class="g_valleyA">
+                        <p>VALLEY VILLAGE A</p>
+                    </div>
+                    <div class="g_valleyB">
+                        <p>VALLEY VILLAGE B</p>
+                    </div>
+                </div>
+            </div>
+            <!-- content5 -->
+            <div class="event">
+                <div class="title">
+                    <p>Event</p>
+                    <h4>이벤트</h4>
+                </div>
+                <ul class="e_list"></ul>
+                <button>자세히 보기<img src="images/arrow2.png" alt=""></button>
+            </div>
+            <!-- content6 -->
+            <div class="inquiry">
+                <div class="title">
+                    <p>Inquiry</p>
+                    <h4>문의사항</h4>
+                </div>
+            </div>
+            <!-- content7 -->
+            <div class="notice">
+                <div class="title">
+                    <p>Notice</p>
+                    <h4>공지사항</h4>
+                </div>
+            </div>
         </div>
         <div id="footer">
             <div class="footer_in">
-                <ul>
-                    <li><a href="">이용약관</a></li>
-                    <li><a href="">개인정보처리방침</a></li>
-                    <li><a href="">영상전보처리기기 운영·관리 방침</a></li>
-                </ul>
-                <div class="line"></div>
-                <p>
-                    주식회사 이지아이레저 대표이사 : 이소미<br>
-                    스카이밸리CC 주소 : 경기도 여주시 북내면 운촌길 254 (운촌리 산68번지)    TEL: 031 ) 880 - 8800    FAX : 031 ) 880 - 8899<br>
-                    개인정보 책임자 : 이연호    사업자번호 : 116-81-51287   통신판매업신고번호 : 2021-경기여주-0190
-                </p>
-                <span>COPYRIGHT ⓒ 2017 SKY VALLEY CLUB. ALL RIGHT RESERVED.</span>
+                <div class="f_top">
+                    <ul>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">영상전보처리기기 운영·관리 방침</a></li>
+                    </ul>
+                </div>
+                <div class="f_bottom">
+                    <p>
+                        주식회사 이지아이레저 대표이사 : 이소미<br>
+                        스카이밸리CC 주소 : 경기도 여주시 북내면 운촌길 254 (운촌리 산68번지)    TEL: 031 ) 880 - 8800    FAX : 031 ) 880 - 8899<br>
+                        개인정보 책임자 : 이연호    사업자번호 : 116-81-51287   통신판매업신고번호 : 2021-경기여주-0190<br><br>
+                        COPYRIGHT ⓒ 2017 SKY VALLEY CLUB. ALL RIGHT RESERVED.
+                    </p>
+                    <button>Family Site ▲</button>
+                </div>
             </div>
         </div>
     </div>
