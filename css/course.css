@@ -58,9 +58,220 @@
     width: 20px;
     height: 25px;
 }
-
-/* 내용 작업하세요 */
-
+/* main */
+#main {
+    width: 100%;
+    height: 640px;
+    background-color: #004B37;
+}
+#main h4 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    padding-top: 240px;
+}
+#main div {
+    margin: 0 auto;
+    width: 125px;
+    height: 3px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/* contents */
+#contents {
+    width: 100%;
+    height: 2350px;
+    background-color: #FFFDF7;
+}
+.con_nav {
+    width: 100%;
+    height: 85px;
+}
+.con_nav ul {
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+.con_nav li {
+    width: 320px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002F23;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.con_nav li.on {
+    background-color: #FFFDF7;
+    color: #004B37;
+    font-weight: 600;
+}
+.con_wrap {
+    margin: 0 auto;
+    width: 1450px;
+    height: 2200px;
+    /* background-color: slateblue; */
+}
+.con_wrap .content1 {
+    width: 100%;
+    height: 220px;
+    margin-top: 100px;
+    display: flex;
+    /* background-color: pink; */
+}
+.content1 .con_l {
+    width: 970px;
+    height: 100%;
+    /* background-color: cornsilk; */
+}
+.con_l h4 {
+    font-size: 24px;
+    color: #008959;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.con_l h2 {
+    font-size: 40px;
+    color: #002F23;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.con_l p {
+    font-size: 22px;
+    color: #422A00;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.content1 .con_r {
+    width: 480px;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.con_r h4 {
+    font-size: 22px;
+    color: #745828;
+}
+.con_r p {
+    font-size: 18px;
+    color: #004B37;
+}
+.con_r span {
+    color: #002F23;
+}
+.con_wrap .content2 {
+    width: 100%;
+    height: 765px;
+    margin-top: 70px;
+    /* background-color: lemonchiffon; */
+}
+.content2 h4 {
+    font-size: 24px;
+    color: #008959;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.content2 h2 {
+    font-size: 40px;
+    color: #002F23;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.content2 img {
+    margin-top: 50px;
+}
+.con_wrap .content3 {
+    width: 100%;
+    height: 520px;
+    margin-top: 80px;
+    /* background-color: lightgreen; */
+}
+.content3 h4 {
+    font-size: 24px;
+    color: #008959;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.content3 h2 {
+    font-size: 40px;
+    color: #002F23;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.content3 p {
+    color: #422A00;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.content3 table {
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    font-size: 18px;
+    color: #422A00;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.content3 thead tr {
+    background-color: #002F23;
+    color: #fff;
+    font-weight: 500;
+    height: 50px;
+    border-bottom: none;
+    font-size: 20px;
+}
+.content3 tbody tr {
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+.content3 tbody tr:nth-child(1), tr:nth-child(3) {
+    background-color: #FFFDF7;
+}
+.content3 tbody tr:nth-child(2), tr:nth-child(4) {
+    background-color: #FFF9E9;
+}
+.con_wrap .content4 {
+    width: 100%;
+    height: 280px;
+    margin-top: 100px;
+    display: flex;
+    /* background-color: skyblue; */
+}
+.content4 .course_box {
+    width: 336px;
+    height: 280px;
+    background-color: #004B37;
+    margin-right: 35.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content4 .course_box:last-child {
+    margin-right: 0;
+}
+.course_box h4 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.course_box button {
+    border: 1px solid #fff;
+    width: 110px;
+    height: 36px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
 /* footer */
 #footer {
     width: 100%;
