@@ -266,6 +266,7 @@
     width: 1445px;
     height: 420px;
     border: 2px solid #004B37;
+    background-color: #fff;
     border-radius: 20px;
     display: flex;
     overflow: hidden;
