@@ -412,44 +412,68 @@
 #pag{
     width: 100%;   
     background-color: #FFFDF7;
-    padding: 46px 0; 
+    padding: 46px 0 168px;
     margin: 0;
-
     display: flex;
     justify-content: center; 
     align-items: center;
+    gap: 28px;
     
 }
 .btn_f{
     display: flex;
     align-items: center;
-
+    gap: 14px;
 }
+
 .btn_circle{
     width: 53px;
     height: 53px;
-    background-color:brown;
+    border: 2px solid #E9E3D5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 53px;
 }
 
 .btn_n{
-    width: 530px;
-    height: 53px;    
     display: flex;
-    align-items: center;   
-
+    align-items: center;  
 }
 
-.btn_n p:nth-child(1) { width: 53px; } 
-.btn_n p:nth-child(2) { width: 106px; } 
-.btn_n p:nth-child(3) { width: 159px; } 
+
 
 .btn_n a{
+    width: 53px;
+    height: 53px;             
+    border: 2px solid #E9E3D5; 
+    background-color: #ffffff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    
     color: #333333;
     font-size: 20px;
+    text-decoration: none;
+    line-height: 53px;
+}
+
+.btn_n a:hover {
+    background-color: #004B37; 
+    color: #ffffff;            
+    border-color: #002F23;
+    font-weight: 700;  
 }
 .btn_b{
     display: flex;
-    align-items: center;       
+    align-items: center;  
+    gap: 14px;     
 }
 
 
