@@ -425,10 +425,24 @@
     align-items: center;
 
 }
-.btn_n{
-    display: flex;
-    align-items: center;    
+.btn_circle{
+    width: 53px;
+    height: 53px;
+    background-color:brown;
 }
+
+.btn_n{
+    width: 530px;
+    height: 53px;    
+    display: flex;
+    align-items: center;   
+
+}
+
+.btn_n p:nth-child(1) { width: 53px; } 
+.btn_n p:nth-child(2) { width: 106px; } 
+.btn_n p:nth-child(3) { width: 159px; } 
+
 .btn_n a{
     color: #333333;
     font-size: 20px;
