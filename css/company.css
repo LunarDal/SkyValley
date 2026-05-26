@@ -1,3 +1,4 @@
+
 /* index */
 #wrap {
     width: 100%;
@@ -60,6 +61,376 @@
 }
 
 /* 내용 작업하세요 */
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #ededed;
+}
+.footer_in {
+    margin: 0 auto;
+    display: block;
+    width: 1450px;
+    height: 300px;
+    position: relative;
+}
+.footer_in .f_top {
+    width: 100%;
+    height: 90px;
+    border-bottom: 3px solid #CFCFCF;
+}
+.f_top ul {
+    position: absolute;
+    padding-top: 35px;
+    width: 100%;
+    height: 50px;
+}
+.f_top li {
+    float: left;
+    margin-left: 40px;
+}
+.f_top li:first-child {
+    margin-left: 0;
+}
+.f_top li a {
+    color: #000;
+    font-weight: 500;
+}
+.footer_in .f_bottom {
+    width: 100%;
+    height: 210px;
+}
+.f_bottom p {
+    font-size: 14px;
+    position: absolute;
+    bottom: 60px;
+}
+.f_bottom button {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    font-weight: 600;
+    color: #001710;
+    font-size: 15px;
+    border: 2px solid;
+    background-color: #fff;
+    cursor: pointer;
+}
+.footer_in button:hover {
+    background-color: #004B37;
+    color: #fff;
+    border: #001710;
+    transition: all 0.5s;
+}
+/* index */
+#wrap {
+    width: 100%;
+    /* height: 1500px; */
+}
+/* header */
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.header_in {
+    margin: 0 auto;
+    width: 1450px;
+    height: 100px;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+.header_in .logo {
+    width: 210px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header_in .nav {
+    width: 780px;
+    height: 100px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_in .nav li {
+    margin-left: 70px;
+}
+.header_in .nav li:first-child {
+    margin-left: 0;
+}
+.header_in .nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #002F23;
+}
+.header_in .icons {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin-left: 185px;
+    align-items: center;
+}
+.header_in .icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header_in .icons img:last-child {
+    width: 20px;
+    height: 25px;
+}
+
+/* 내용 작업하세요 */
+#sub{
+    width: 100%;
+    height: 650px;
+ }
+.sub_img{
+    width: 100%;
+    height: 650px;
+    background: url(../images/company/sub_1\ main.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.sub_img p{
+    margin-left: 233px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.sub_img h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 120px auto 0 auto;
+    position: relative;
+
+}
+.sub_img h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background-color: #fff;
+}
+
+
+#sub_area{
+    margin: 0000;
+    width: 100%;
+    height: 80px;
+    background-color: #002F23;
+}
+#sub_area ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#sub_area ul li{
+    width: 384px;
+    height: 80px;
+    display: flex;                 
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+
+    
+}
+#sub_area ul li:hover {
+    background-color: #FFFDF7; 
+    color: #002F23;         
+    font-weight: 700;  
+}       
+
+#contents{
+    width: 100%;
+    height: auto;
+    background-color: #FFFDF7;
+}
+.conts1{
+    margin-left: 233px;
+
+}
+.conts1 p{
+    font-weight: 700;
+    padding-top: 100px;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #004B37;
+}
+.conts1 span{
+    font-size: 20px;
+    color: #745828;
+    font-weight: 500;
+}
+.conts1_img{
+    margin-top: 60px;
+    margin-left: 233px;
+    width: 1454px;
+    height: 600px;
+    background: url(../images/company/company_cont1.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conts1_text{
+    width: 718px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.conts1_text p{
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+}
+
+
+/*conts2 시작*/
+
+.conts2_img{
+    margin-top: 80px;
+    margin-left: 233px;
+    width: 1454px;
+    height: 600px;
+    background: url(../images/company/company_cont2.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conts2_text{
+    width: 718px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.conts2_text p{
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+}
+.sky_text p{
+        padding-top: 167px;
+        margin-left: 233px;
+        font-size: 32px;
+        color: #004B37;
+        font-weight: 700;
+        margin-bottom: 24px;
+} 
+.sky_text span{
+        margin-left: 233px;
+        font-size: 20px;
+        color: #745828;
+        font-weight: 500;
+}
+/*sky ci*/
+.sky{
+    width: 1454px;            
+    margin: 70px auto 0 auto;       
+    display: flex;           
+    justify-content: space-between; 
+}
+.sky_box{
+    width: 700px;    
+}
+
+.sky_ci{
+    width: 700px;
+    height: 340px;
+    background-color: #ffffff;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sky_ci_img{
+    width: 236px;
+    height: 233px;
+    background: url(../images/company/sky_ci1.png) no-repeat center center;
+    background-size: cover;
+
+}
+.sky_ci_p1 p{
+    margin: 30px 0 0 0;
+    font-size: 24px;
+    color: #745828;
+    font-weight: 700;
+}
+.sky_ci_p1 span{
+    display: block;
+    margin: 16px 0 0 0;
+    font-size: 18px;
+    color: #333333;   
+    line-height: 1.5; 
+}
+
+/*sky ci2*/
+.sky_ci2{
+    width: 700px;
+    height: 340px;
+    background-color: #ffffff;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.sky_ci_img2{
+    width: 440px;
+    height: 117px;
+    background: url(../images/company/sky_ci2.png) no-repeat center center;
+    background-size: cover;
+
+}
+.sky_ci_p2 p{
+    margin: 30px 0 0 0;
+    font-size: 24px;
+    color: #745828;
+    font-weight: 700;
+}
+.sky_ci_p2 span{
+    display: block;
+    margin: 16px 0 0 0;
+    font-size: 18px;
+    color: #333333;   
+    line-height: 1.5; 
+    margin-bottom: 150px;
+}
+
+
 
 /* footer */
 #footer {
