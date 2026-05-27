@@ -77,6 +77,10 @@
     font-size: 20px;
     color: #fff;
 }
+.sub_img p strong {
+    font-weight: 700;   
+    color: #ffffff;      
+}
 .notice_text h2{
     font-size: 48px;
     color: #fff;
