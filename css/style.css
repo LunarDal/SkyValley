@@ -190,6 +190,18 @@
     position: relative;
     cursor: pointer;
 }
+.course_list li:nth-child(1) .course_box{
+    background: url(../images/main/course_sky.jpg) no-repeat center / cover;    
+}
+.course_list li:nth-child(2) .course_box{
+    background: url(../images/main/course_valley.jpg) no-repeat center / cover;    
+}
+.course_list li:nth-child(3) .course_box{
+    background: url(../images/main/course_lake.jpg) no-repeat center / cover;    
+}
+.course_list li:nth-child(4) .course_box{
+    background: url(../images/main/course_mountain.jpg) no-repeat center / cover;    
+}
 .course_box img {
     position: absolute;
     right: 20px;
@@ -325,7 +337,9 @@
 .c_space .space_r {
     width: 50%;
     height: 100%;
-    background-color: #745828;
+    background: url(../images/main/robby.png);
+    background-size: cover;
+    overflow: hidden;
 }
 /* content4 */
 .garden {
@@ -339,7 +353,8 @@
     margin-top: 20px;
     width: 100%;
     height: 340px;
-    background-color: #004731;
+    background: url(../images/main/garden_info.jpg) no-repeat center / cover;
+    overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
@@ -365,6 +380,24 @@
     cursor: pointer;
     position: relative;
 }
+.garden .g_area > div:nth-child(1) {
+    background: url(../images/main/skyvillage.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.garden .g_area > div:nth-child(2) {
+    background: url(../images/main/valleyA.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.garden .g_area > div:nth-child(3)
+ {
+    background: url(../images/main/valleyB.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
 .garden .g_area > div:first-child {
     margin-left: 0;
 }
@@ -394,10 +427,35 @@
 .e_list .e_box {
     width: 350px;
     height: 445px;
-    background-color: #004731;
     border-radius: 20px;
     cursor: pointer;
 }
+
+.e_list li:nth-child(1) .e_box {
+    background: url(../images/main/event_1.jpg) no-repeat center / cover;
+}
+
+
+.e_list li:nth-child(2) .e_box {
+    background: url(../images/main/event_2.jpg) no-repeat center / cover;
+}
+
+
+.e_list li:nth-child(3) .e_box {
+    background: url(../images/main/event_3.jpg) no-repeat center / cover;
+}
+
+.e_list li:nth-child(4) .e_box {
+    background: url(../images/main/event_4.jpg) no-repeat center / cover;
+}
+
+
+.e_list li:nth-child(5) .e_box {
+    background: url(../images/main/event_5.jpg) no-repeat center / cover;
+}
+
+
+
 .event button {
     margin: 0 auto;
     display: flex;

@@ -62,7 +62,9 @@
 #main {
     width: 100%;
     height: 640px;
-    background-color: #004B37;
+    background:url(../images/guide/main.png) ;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #main p {

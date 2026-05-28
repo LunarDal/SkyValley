@@ -62,7 +62,9 @@
 #main {
     width: 100%;
     height: 640px;
-    background-color: #004B37;
+    background:url(../images/course/main.png);
+    background-size: cover;
+    overflow: hidden;
 }
 #main p {
     margin-left: 233px;
@@ -263,6 +265,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.content4 .course_box:nth-child(1){
+    background: url(../images/course/course_sky.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(2){
+    background: url(../images/course/course_valley.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(3){
+    background: url(../images/course/course_lake.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(4){
+    background: url(../images/course/course_mountain.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 .content4 .course_box:last-child {
     margin-right: 0;
