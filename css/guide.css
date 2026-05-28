@@ -65,6 +65,7 @@
     background:url(../images/guide/main.png) ;
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 #main p {
@@ -80,10 +81,26 @@
 #main h2 {
     font-size: 48px;
     color: #fff;
+    font-weight: 700;
     text-align: center;
-    padding-top: 200px;
+    padding-bottom: 20px;
+    margin: 120px auto 0 auto;
+    position: relative;
+    
 }
-#main div {
+#main h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+/* #main div {
     margin: 0 auto;
     width: 125px;
     height: 3px;
@@ -91,8 +108,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-}
+    margin-top: 20px; 
+} */
 /* contents */
 #contents {
     width: 100%;
