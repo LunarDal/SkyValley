@@ -64,7 +64,16 @@
     height: 640px;
     background-color: #004B37;
 }
-
+#main p {
+    margin-left: 233px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.main p strong {
+    font-weight: 700;   
+    color: #ffffff;      
+}
 #main h4 {
     font-size: 48px;
     color: #fff;
