@@ -265,6 +265,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.content4 .course_box::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.content4 .course_box:hover::after {
+    background-color: rgba(0, 0, 0, 0);
 }
 .content4 .course_box:nth-child(1){
     background: url(../images/course/course_sky.jpg);
