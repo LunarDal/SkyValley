@@ -381,7 +381,7 @@
     position: relative;
 }
 .garden .g_area > div:nth-child(1) {
-    background: url(../images/main/skyvillage.jpg) no-repeat;
+    background: url(../images/main/skyvillage.jpg) no-repeat ;
     background-size: cover;
     overflow: hidden;
 
@@ -393,7 +393,7 @@
 }
 .garden .g_area > div:nth-child(3)
  {
-    background: url(../images/main/valleyB.jpg);
+    background: url(../images/main/valleyB.jpg) ;
     background-size: cover;
     overflow: hidden;
 }
