@@ -295,7 +295,7 @@
 .hall_img{
     width: 718px;
     height: 500px;
-    background: url(../images/club/front.png)no-repeat;
+    background: url(../images/club/hall.png)no-repeat;
     background-size: cover; 
 }
 .hall_text{
@@ -367,7 +367,7 @@
 .spa_img{
     width: 718px;
     height: 500px;
-    background: url(../images/club/restaurant.png)no-repeat;
+    background: url(../images/club/spa.png)no-repeat;
     background-size: cover; 
 }
 .spa_text button{

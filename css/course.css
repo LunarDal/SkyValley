@@ -61,8 +61,10 @@
 /* main */
 #main {
     width: 100%;
-    height: 640px;
-    background-color: #004B37;
+    height: 650px;
+    background:url(../images/course/main.png);
+    background-size: cover;
+    overflow: hidden;
 }
 #main p {
     margin-left: 233px;
@@ -74,13 +76,30 @@
     font-weight: 700;   
     color: #ffffff;      
 }
+
 #main h4 {
     font-size: 48px;
     color: #fff;
+    font-weight: 700;
     text-align: center;
-    padding-top: 240px;
+    padding-bottom: 20px;
+    margin: 120px auto 0 auto;
+    position: relative;
+    
 }
-#main div {
+#main h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+/* #main div {
     margin: 0 auto;
     width: 125px;
     height: 3px;
@@ -89,7 +108,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
+} */
 /* contents */
 #contents {
     width: 100%;
@@ -263,6 +282,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.content4 .course_box::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.content4 .course_box:hover::after {
+    background-color: rgba(0, 0, 0, 0);
+}
+.content4 .course_box:nth-child(1){
+    background: url(../images/course/course_sky.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(2){
+    background: url(../images/course/course_valley.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(3){
+    background: url(../images/course/course_lake.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.content4 .course_box:nth-child(4){
+    background: url(../images/course/course_mountain.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 .content4 .course_box:last-child {
     margin-right: 0;
