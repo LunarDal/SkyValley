@@ -11,9 +11,9 @@
 }
 .header_in {
     margin: 0 auto;
-    width: 1460px;
+    width: 1450px;
     height: 100px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
 }
 .header_in .logo {
@@ -60,6 +60,7 @@
 }
 
 /* 내용 작업하세요 */
+
 
 
 /* main */
@@ -200,16 +201,6 @@
 /* content4 */
 
 /* content5 */
-
-
-
-
-
-
-
-
-
-
 
 
 
