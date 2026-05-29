@@ -140,7 +140,9 @@
     height: auto;
     background-color: #FFFDF7;
     padding-top: 118px
-
+}
+#board p a {
+    color: #333;
 }
 .board_header{
     width: 1454px;
