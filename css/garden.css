@@ -59,88 +59,87 @@
     height: 25px;
 }
 
-/* 내용 작업하세요 */
-
-
-
-/* main */
-#main{
+#sub{
     width: 100%;
     height: 650px;
-    background: url(../images/garden/background.png)no-repeat;
-}
-.main_in{
-    margin: 0 auto;
-    width: 1460px;
+ }
+.sub_img{
+    width: 100%;
     height: 650px;
-    /* background-color: rgb(225, 241, 255); */
+    background: url(../images/garden/background.png);
+    background-size: cover;
+    overflow: hidden;
 }
-.main_in .m_top{
+.sub_img p{
+    margin-left: 233px;
     padding-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.sub_img p a {
+    color: #fff;
+}
+.sub_img p strong {
+    font-weight: 700;   
+    color: #ffffff;      
+}
+.sub_img h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 160px auto 0 auto;
+    position: relative;
+
+}
+.sub_img h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background-color: #fff;
 }
 
-.m_top ul{
-    display: flex;
-    
-}
-.m_top li{
-    color: #fff;
-}
-.m_top li:last-child{
-    font-weight: 900;
-}
-.m_top a{
-    color: #fff;
-}
-.main_in .m_bottom{
-    padding-top: 210px;
-}
-.m_bottom h2{
-    text-align: center; 
-    color: #fff;
-    font-size: 50px;
-}
-
-#button{
+#sub_area{
+    margin: 0000;
     width: 100%;
-    height: 80px;
-    background-color: #004B37;
+    height: 85px;
+    background-color: #002F23;
 }
-#button ul{
+#sub_area ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
-    
 }
-#button li{
+#sub_area ul li{
     width: 480px;
-    height: 80px;
-}
-#button a{
-    color: #fff;
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
 }
-#button li:first-child{
-    background-color: #fff;
-}
-#button li:first-child a{
-    color: #002F23;
-}
-
-#button a:hover{
+#sub_area ul li:hover {
     background-color: #005f46;
 }
-
-#button li:first-child:hover a{
-    background-color: #fff;
+#sub_area ul li.on {
+    background-color: #FFFDF7;
+    color: #004B37;
+    font-weight: 600;
 }
 
 #contents{
     width: 100%;
     height: 4200px;
+    background-color: #FFFDF7;
     /* background-color: aliceblue;  */
 }
 .contents_in{
