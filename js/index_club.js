@@ -1,6 +1,8 @@
+'use strict'
+
 $(document).ready(function() {
 
-    // [1. 데이터 창고]
+
     var myData = [
         {
             eng: "Front · Lobby",
