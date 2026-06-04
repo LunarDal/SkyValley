@@ -298,18 +298,24 @@
     border: 1px solid #745828;
     margin-top: 50px;
     border-radius: 10px;
+    font-size: 16px;
+    color: #422A00;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .club .c_tabs li.on {
     background-color: #F2E3C2;
 }
-.club .c_tabs li a {
+/* .club .c_tabs li a {
     display: block;
     margin-top: 7px;
     font-size: 16px;
     color: #422A00;
     text-align: center;
     font-weight: 500;
-}
+} */
 .c_area {
     margin: 0 auto;
     display: flex;
@@ -321,11 +327,28 @@
     left: -75px;
     /* background-color: skyblue; */
 }
-.c_area img {
+.c_area_area { 
+    width: 1600px;
+    height: 420px;
+    position: relative;
+}
+.c_area .l_btn {
     cursor: pointer;
+    position: absolute;
+    top:200px;
+    left:10px;
+}
+.c_area .r_btn {
+    cursor: pointer;
+    position: absolute;
+    right:10px;
+    top:200px;
 }
 .c_space {
-    margin: 0 auto;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left: -722.5px;
     width: 1445px;
     height: 420px;
     border: 2px solid #004B37;
@@ -333,6 +356,11 @@
     border-radius: 20px;
     display: flex;
     overflow: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.c_space.on{
+    opacity: 1;
 }
 .c_space .space_l {
     width: 50%;
@@ -388,10 +416,16 @@
 .c_space .space_r {
     width: 50%;
     height: 100%;
-    background: url(../images/main/robby.png);
     background-size: cover;
     overflow: hidden;
 }
+
+.c_space:nth-child(2) .space_r { background: url(../images/main/robby.png) center / cover; }
+.c_space:nth-child(3) .space_r { background: url(../images/main/restaurant.png) center / cover; }
+.c_space:nth-child(4) .space_r { background: url(../images/main/hall.png) center / cover; }
+.c_space:nth-child(5) .space_r { background: url(../images/main/spa.png) center / cover; }
+.c_space:nth-child(6) .space_r { background: url(../images/main/pro.png) center / cover; }
+
 /* content4 */
 .garden {
     margin: 0 auto;
