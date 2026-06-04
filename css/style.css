@@ -71,9 +71,12 @@
     position: relative;
 }
 .main_title {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 1450px;
     height: 770px;
+    position: absolute;
+    left: 220px;
+    z-index: 1;
 }
 .main_title h3 {
     font-size: 5rem;
@@ -169,6 +172,12 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
+    top: 240px;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.intro_inner.act{
+    opacity: 1;
     top: 160px;
 }
 .intro_inner h3 {
@@ -201,8 +210,27 @@
     height: 760px;
     /* background-color: darksalmon; */
 }
+.course > .title {
+    position: relative;
+    opacity: 0;
+    top: 50px;
+    transition: all 0.5s;
+}
+.course > .title.act {
+    opacity: 1;
+    top: 0;
+}
 .course .course_list {
     display: flex;
+    position: relative;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.course .course_list.act {
+    opacity: 1;
+    top: 0;
 }
 .course_list li {
     text-align: center;
@@ -253,6 +281,24 @@
 .course_list li:nth-child(4) .course_box{
     background: url(../images/main/course_mountain.jpg) no-repeat center / cover;    
 }
+/* 코스영상 삽입 */
+.course_box {
+    overflow: hidden;
+}
+.course_box video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.course_box:hover video {
+    opacity: 1;
+}
 .course_box img {
     position: absolute;
     right: 20px;
@@ -280,7 +326,13 @@
     height: 650px;
     /* background-color: deepskyblue; */
     position: relative;
+    margin-top: 180px;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.club.act {
     margin-top: 100px;
+    opacity: 1;
 }
 .club .c_tabs {
     display: flex;
@@ -432,7 +484,13 @@
     width: 1450px;
     height: 870px;
     /* background-color: aqua; */
+    margin-top: 180px;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.garden.act {
     margin-top: 100px;
+    opacity: 1;
 }
 .garden .g_info {
     margin-top: 20px;
@@ -518,9 +576,29 @@
     /* background-color: gold; */
     margin-top: 100px;
 }
+.event > .title {
+    position: relative;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.event > .title.act {
+    top: 0;
+    opacity: 1;
+}
 .event .e_list {
     display: flex;
     overflow: hidden;
+    position: relative;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.e_list.act {
+    top: 0;
+    opacity: 1;
 }
 .e_list li {
     margin-right: 30px;
@@ -584,9 +662,29 @@
     margin-top: 100px;
     /* background-color: papayawhip; */
 }
+.inquiry > .title {
+    position: relative;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.inquiry > .title.act {
+    top: 0;
+    opacity: 1;
+}
 .inquiry .i_area {
     width: 100%;
     height: 550px;
+    position: relative;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.i_area.act {
+    top: 0;
+    opacity: 1;
 }
 .inquiry .i_area .i_book {
     width: 100%;
@@ -649,9 +747,29 @@
     margin-top: 100px;
     /* background-color: mediumorchid; */
 }
+.notice > .title {
+    position: relative;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.notice > .title.act {
+    top: 0;
+    opacity: 1;
+}
 .notice .n_list {
     width: 100%;
     height: 270px;
+    position: relative;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s;
+}
+.notice .n_list.act {
+    top: 0;
+    opacity: 1;
 }
 .notice .n_list li {
     display: flex;
