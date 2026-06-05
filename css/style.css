@@ -243,15 +243,15 @@
     border-radius: 20px;
     position: relative;
     cursor: pointer;
-    
-
+    overflow: hidden;  
+    /* 
     background-size: cover;      
     background-position: center; 
-    overflow: hidden;           
-    transition: all 0.5s ease;   
+             
+    transition: all 0.5s ease;   */ 
 }
 
-
+/* 
 .course_list .course_box:hover {
     background-size: 110%;
 }
@@ -269,6 +269,8 @@
 .course_list .course_box:hover::after {
     background-color: rgba(255, 255, 255, 0.3);
 }
+*/
+/* 
 .course_list li:nth-child(1) .course_box{
     background: url(../images/main/course_sky.jpg) no-repeat center / cover ;     
 }
@@ -281,30 +283,44 @@
 .course_list li:nth-child(4) .course_box{
     background: url(../images/main/course_mountain.jpg) no-repeat center / cover;    
 }
+*/
 /* 코스영상 삽입 */
-.course_box {
-    overflow: hidden;
-}
-.course_box video {
+.course_thumb{
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
+}
+.course_thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
-    opacity: 0;
-    transition: opacity 0.5s;
 }
-.course_box:hover video {
+.course_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    border: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+.course_box:hover .course_video {
     opacity: 1;
 }
-.course_box img {
+.course_box .arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
+/* .course_box img {
     position: absolute;
     right: 20px;
     bottom: 20px;
     cursor: pointer;
-}
+} */
 .course_list > li > h4 {
     font-size: 24px;
     color: #002F23;
