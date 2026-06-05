@@ -44,6 +44,8 @@ $(document).ready(function() {
         $('.c_space').removeClass('on');
         $('.c_space').eq(i).addClass('on');
 
+        $('.club .c_tabs li').removeClass('on');
+        $('.club .c_tabs li').eq(i).addClass('on');
         current = i;
     }
 
