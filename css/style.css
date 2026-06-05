@@ -609,8 +609,17 @@
     top: 0;
     opacity: 1;
 }
+.event .e_wrap {
+    overflow: hidden;
+    cursor: grab;
+}
+.e_wrap.dragging {
+    cursor: grabbing;
+}
 .event .e_list {
     display: flex;
+    width: max-content;
+    user-select: none;
     overflow: hidden;
     position: relative;
     top: 80px;
@@ -623,6 +632,7 @@
     opacity: 1;
 }
 .e_list li {
+    flex-shrink: 0;
     margin-right: 30px;
 }
 .e_list .e_box {
