@@ -10,10 +10,12 @@ window.addEventListener('load', ()=>{
         let n4 = false;
         let n5_1 = false;
         let n5_2 = false;
+        let n5_3 = false;
         let n6_1 = false;
         let n6_2 = false;
         let n7_1 = false;
         let n7_2 = false;
+        let n7_3 = false;
 
         // content1
         if(370 < offsety && n1 == false){
@@ -83,6 +85,15 @@ window.addEventListener('load', ()=>{
             document.querySelector('.e_list').classList.remove('act')
         }
 
+        if(3410 < offsety && n5_3 == false){
+            n5_3 = true;
+            document.querySelector('.event .btn').classList.add('act')
+        }
+        else if(3410 < offsety && n5_3 == true){
+            n5_3 = false;
+            document.querySelector('.event .btn').classList.remove('act')
+        }
+
         // content6
         if(4170 < offsety && n6_1 == false){
             n6_1 = true;
@@ -119,6 +130,15 @@ window.addEventListener('load', ()=>{
         else if(5100 < offsety && n7_2 == true){
             n7_2 = false;
             document.querySelector('.n_list').classList.remove('act')
+        }
+
+        if(5110 < offsety && n7_3 == false){
+            n7_3 = true;
+            document.querySelector('.notice .btn').classList.add('act')
+        }
+        else if(5110 < offsety && n7_3 == true){
+            n7_3 = false;
+            document.querySelector('..notice .btn').classList.remove('act')
         }
     })
     
