@@ -3,15 +3,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const courseBoxes = document.querySelectorAll('.course_box')
 
     courseBoxes.forEach(box => {
-        const video = box.querySelector('video')
+        const iframe = box.querySelector('.course_video')
+        const player = new Vimeo.Player(iframe)
 
         box.addEventListener('mouseenter', ()=>{
-            video.play()
+            iframe.style.opacity = '1'
+            player.play().catch(error => {
+                console.log(error)
+            })
         })
 
         box.addEventListener('mouseleave', ()=>{
-            video.pause()
-            video.currentTime = 0
+            player.pause()
+            iframe.style.opacity = '0'
         })
     })
 })
