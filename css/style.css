@@ -27,11 +27,13 @@
     height: 100px;
     margin-left: 140px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 }
 .header_in .nav li {
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    padding: 0 20px;
 }
 .header_in .nav li:first-child {
     margin-left: 0;
